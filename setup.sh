@@ -56,7 +56,7 @@ case $COMMAND in
     clone)
         for project in $PROJECTS; do
             if [ ! -d "minion-$project" ]; then
-                git clone --recursive "https://github.com/mozilla/minion-$project" "$ROOT/minion-$project" || exit 1
+                git clone --recursive "https://github.com/ericanders-wf/minion-$project" "$ROOT/minion-$project" || exit 1
             fi
         done
         ;;
