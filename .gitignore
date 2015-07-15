@@ -17,3 +17,6 @@ docs/_build/*
 *.egg
 .DS_Store
 docs/.DS_Store
+env/*
+minion-frontend/*
+minion-backend/*
